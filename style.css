@@ -1,0 +1,222 @@
+header {
+	height: 40px;
+	width: 791px;
+	background: #4e729a;
+	border-radius: 0 0 6px 6px;
+
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, verdana, sans-serif, 'Lucida Sans'; 
+	font-size: 11px;
+}
+body {
+	width: 791px;
+	margin: auto;
+}
+header a:last-child {
+	text-decoration: none;
+	font-weight: bold;
+	color: #E8EFF7;
+	text-shadow: 0px 1px 0px #4e7097;
+	float: right;
+	padding: 12px 10px 15px;
+	margin-right: 8px;
+}
+header a:last-child:hover {
+	background-color: rgba(0, 31, 64, 0.17);
+}
+header a:first-child:active img{
+	margin-top: 1px;
+}
+form label {
+	color: #45688E;
+	font-weight: bold;
+	padding: 3px 0px 8px;
+	line-height: 1.182;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-ms-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	display: block;
+}
+form input {
+	width: 105px;
+	padding: 5px 5px 6px;
+	background: #FFF;
+	border: 1px solid #C3CBD4;
+	margin: 0 0 7px 0;
+	display: block;
+}
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+input[type="submit"]{
+	margin: 5px 0 0 0;
+	width: 100%;
+	background-color: #6d8cb0;
+	text-decoration: none;
+	padding: 7px 8px 7px 16px;
+	display: inline-block;
+	zoom: 1;
+	cursor: pointer;
+	white-space: nowrap;
+	outline: none;
+	vertical-align: top;
+	overflow: visible;
+	line-height: 13px;
+	color: #FFF;
+	border: 0;
+	font-size: 11px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transition: background-color 100ms ease-in-out;
+	-khtml-transition: background-color 100ms ease-in-out;
+	-moz-transition: background-color 100ms ease-in-out;
+	-ms-transition: background-color 100ms ease-in-out;
+	-o-transition: background-color 100ms ease-in-out;
+	transition: background-color 100ms ease-in-out;
+}
+.forgot:hover{
+	text-decoration: underline;
+}
+.down_footer a:hover{
+	text-decoration: underline;
+}
+a {
+	color: #2B587A;
+	text-decoration: none;
+	cursor: pointer;
+}
+form a {
+	text-align: center;
+	line-height: 1.182;
+	-webkit-font-smoothing: subpixel-antialiased;
+	margin-top: 12px;
+	display: block;
+}
+aside form {
+	padding: 3px 0px 0px 9px;
+	width: 117px;
+	margin-top: 3px;
+}
+.article_header {
+	color: #607387;
+	font-weight: bold;
+	padding: 7px 10px;
+	line-height: 140%;
+	background: #E9EDF1;
+	color: #607387;
+	border: solid #D9E0E7;
+	border-width: 0px 1px;
+}
+aside {
+	float: left;
+}
+section {
+	float: right;
+}
+article {
+	border: solid #F3F3F3;
+	border-width: 0px 1px 1px;
+	border-color: rgba(100, 100, 100, 0.08);
+	margin-right: 15px;
+	width: 631px;
+}
+article>div {
+	border: solid #D9E0E7;
+	border-width: 0px 1px 1px;
+}
+.content {
+	padding: 5px 30px 10px;
+}
+h3 {
+	border-bottom: 1px solid #DAE1E8;
+	color: #45668E;
+	font-size: 1.18em;
+	padding: 0px 0px 3px;
+	margin: 0px 0px 10px;
+}
+#sign_up span {
+	background: url(http://vk.com/images/backlink.gif?4) no-repeat right -127px;
+	padding-right: 25px;
+	line-height: 13px;
+	font-size: 11px;
+}
+#sign_up {
+	margin: 15px 0px 8px;
+	background-color: #6d8cb0;
+	width: 160px;
+	padding: 7px 2px 8px 16px;
+	outline: none;
+	line-height: 13px;
+	color: #FFF;
+	border: 0;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transition: background-color 100ms ease-in-out;
+	-khtml-transition: background-color 100ms ease-in-out;
+	-moz-transition: background-color 100ms ease-in-out;
+	-ms-transition: background-color 100ms ease-in-out;
+	-o-transition: background-color 100ms ease-in-out;
+	transition: background-color 100ms ease-in-out;
+}
+article input[type="text"]{
+	font-size: 11px;
+	width: 150px;
+	margin: auto;
+	margin-top: 10px;
+}
+article form {
+	text-align: center;
+	margin-top: 20px;
+}
+li {
+    list-style: square;
+    color: #758EAC;
+    line-height: 160%;
+}
+li span {
+	color: black
+}
+.img {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.img img {
+	padding: 20px;
+}
+.aim {
+	margin-top: 20px;
+}
+.up_footer a {
+	padding: 2px 5px 2px 5px;
+}
+.up_footer:hover {
+	text-decoration: none;
+}
+.up_footer {
+	text-align: center;
+	margin-top: 10px;
+}
+.down_footer {
+	text-align: center;
+	margin-top: 10px;
+}
+.down_footer a {
+	padding: 2px 5px 2px 5px;
+}
+.up_footer a:hover {
+	background: #E1E7ED;
+}
+.mobile {
+	display: none;
+}
